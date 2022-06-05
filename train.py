@@ -70,7 +70,7 @@ if __name__ == "__main__":
     model = Model(features_train.shape[1])
     optimizer = torch.optim.Adam(model.parameters(), lr=0.01)
     loss_fn = nn.CrossEntropyLoss()
-    epochs = 100
+    epochs = 300
     print(f"Number of epochs: {epochs}")
 
     print("Starting model training...")
